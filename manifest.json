@@ -1,0 +1,16 @@
+{
+  "name": "Golden Sun: The Lost Age Randomizer Tracker",
+  "game_name": "Minish Cap Randomizer",
+  "platform": "gba",
+  "package_version": "0.2.0",
+  "package_uid": "gstlar_tracker_fork",
+  "author": "MarvinXLII, Karanum",
+  "variants": {
+    "standard": {
+      "display_name": "Most Items"
+    },
+	"all_items": {
+	  "display_name": "All Items"
+	}
+  }
+}

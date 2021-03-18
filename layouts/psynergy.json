@@ -1,0 +1,81 @@
+{
+    "tracker_psynergy": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,2",
+                "rows": [
+				    [
+						"whirlwind",
+						"growth",
+						"mind_read",
+						"lash_pebble",
+						"pound_cube",
+						"tremor_bit",
+						"scoop_gem",
+						"reveal"
+		    		],
+		    		[
+						"frost_jewel",
+						"douse_drop",
+						"cyclone_chip",
+						"parch",
+						"sand",
+						"grindstone",
+						"hover_jade"
+		    		],
+		    		[
+						"blaze",
+						"burst_brooch",
+						"teleport_lapis",
+						"lifting_gem",
+						"orb_of_force",
+						"carry_stone",
+						"catch_beads"
+            		]
+                ]
+            }
+        ]
+    },
+    "tracker_capture_item": {
+        "type": "container",
+		"content": {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+				[
+		    		"whirlwind",
+		    		"growth",
+		    		"mind_read",
+		    		"lash_pebble",
+		    		"pound_cube",
+		    		"tremor_bit",
+		    		"scoop_gem",
+		    		"reveal"
+				],
+				[
+		    		"frost_jewel",
+		    		"douse_drop",
+		    		"cyclone_chip",
+		    		"parch",
+		    		"sand",
+		    		"grindstone",
+		    		"hover_jade"
+				],
+				[
+		    		"blaze",
+		    		"burst_brooch",
+		    		"teleport_lapis",
+		    		"lifting_gem",
+		    		"orb_of_force",
+		    		"carry_stone",
+		    		"catch_beads"
+                ]
+	    	]
+		}
+    }
+}
