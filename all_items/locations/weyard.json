@@ -2782,7 +2782,7 @@
 			"name": "Summon Tablet",
 			"short_name": "Tablet",
 			"item_count": 1,
-			"access_rules": ["reunion"]
+			"access_rules": ["reunion"],
 			"clear_as_group": false
 		  },
           {
