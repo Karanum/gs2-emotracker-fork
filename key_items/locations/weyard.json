@@ -1122,7 +1122,7 @@
           {
             "name": "Mars Star",
             "item_count": 1,
-            "access_rules": ["burst_brooch,blaze,reveal,teleport_lapis"],
+            "access_rules": ["pound_cube,burst_brooch,blaze,reveal,teleport_lapis"],
             "clear_as_group": false
           },
           {
