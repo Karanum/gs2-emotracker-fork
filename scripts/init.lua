@@ -2,6 +2,11 @@
 ScriptHost:LoadScript("scripts/settings.lua")
 
 Tracker:AddItems("items/common.json")
+Tracker:AddItems("items/djinn.json")
+Tracker:AddItems("items/progression.json")
+
+ScriptHost:LoadScript("scripts/logic_common.lua")
+
 Tracker:AddMaps("maps/maps.json")
 Tracker:AddLocations("locations/weyard.json")
 Tracker:AddLayouts("layouts/items.json")

@@ -17,42 +17,23 @@
 		    "access_rules": ["whirlwind"],
         "sections": [
           {
-            "name": "Exterior",
-            "item_count": 6,
-            "clear_as_group": false
-          },
-          {
-            "name": "Interior",
-            "item_count": 7,
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Frost",
-			      "short_name": "+Frost",
+            "name": "Flora",
             "item_count": 1,
-            "access_rules": ["frost_jewel"],
             "clear_as_group": false
           },
           {
-            "name": "Reveal Room Chest",
-			      "short_name": "+Reveal",
+            "name": "Reveal Tablet",
+            "short_name": "Tablet",
             "item_count": 1,
-            "access_rules": ["reveal"],
             "clear_as_group": false
           }
         ],
         "children": [
           {
-            "name": "0xE71,0xF32,0xF33,0xF34,0xF36,0xF37"
+            "name": "0x12"
           },
           {
-            "name": "0x12,0xF3B,0xF38,0xF39,0xF3D,0xF3A,0x8D4"
-          },
-          {
-            "name": "0xF35"
-          },
-          {
-            "name": "0xF3C"
+            "name": "0x8D4"
           }
         ]
       },
@@ -69,13 +50,6 @@
 		    "access_rules": ["[sand]", "skips_oobeasy_on", "scoop_gem", "lemurian_ship"],
         "sections": [
           {
-            "name": "Reveal Chest",
-			      "short_name": "Reveal",
-            "item_count": 1,
-            "access_rules": ["reveal"],
-            "clear_as_group": false
-          },
-          {
             "name": "Large Bread",
 			      "short_name": "Bread",
             "hosted_item": "large_bread",
@@ -91,26 +65,9 @@
 			      "short_name": "Fix Boat",
             "hosted_item": "briggs_jailbreak",
             "access_rules": ["briggs_battle,burst_brooch,lash_pebble,pound_cube"]
-          },
-          {
-            "name": "Cave Left Side",
-            "short_name": "Cave Left",
-            "item_count": 3,
-            "access_rules": ["briggs_jailbreak,lash_pebble,pound_cube", "large_bread,lash_pebble,pound_cube"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Cave Right Side",
-            "short_name": "Cave Right",
-            "item_count": 3,
-            "access_rules": ["briggs_jailbreak,frost_jewel"],
-            "clear_as_group": false
           }
         ],
         "children": [
-          {
-            "name": "0xF1D"
-          },
           {
             "name": "0x902"
           },
@@ -119,12 +76,6 @@
           },
           {
             "name": "0x97F"
-          },
-          {
-            "name": "0xF25,0xF26,0xF27"
-          },
-          {
-            "name": "0xF8F,0xF90,0xF91"
           }
         ]
       },
@@ -146,8 +97,8 @@
             "clear_as_group": false
           },
           {
-            "name": "Treasures",
-            "item_count": 3,
+            "name": "Iris",
+            "item_count": 1,
             "clear_as_group": false,
             "access_rules": ["lifting_gem,sand"]
           }
@@ -157,7 +108,7 @@
             "name": "0x1B"
           },
           {
-            "name": "0xE05,0xE06,0x1C"
+            "name": "0x1C"
           }
         ]
       },
@@ -174,7 +125,7 @@
 		"access_rules": ["lemurian_ship,grindstone,carry_stone"],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Haures",
             "item_count": 1,
             "clear_as_group": false
           }
@@ -197,18 +148,6 @@
         ],
 		"access_rules": ["lemurian_ship,whirlwind"],
         "sections": [
-          {
-            "name": "Treasures",
-            "item_count": 8,
-            "clear_as_group": false
-          },
-		      {
-            "name": "Sand Required",
-			      "short_name": "+Sand",
-            "item_count": 8,
-            "access_rules": ["sand"],
-            "clear_as_group": false
-          },
 		      {
 		        "name": "Prong",
 			      "item_count": 1,
@@ -217,12 +156,6 @@
 		      }
         ],
         "children": [
-		      {
-            "name": "0xFB0,0xFB1,0xFB2,0xFB3,0xFB4,0xFB5,0xF77,0xF79"
-          },
-          {
-            "name": "0xF78,0xF7A,0xF7B,0xF7D,0xF7F,0xF7C,0xF7E,0xF3F"
-          },
 		      {
 		        "name": "0xF80"
 		      }
@@ -273,44 +206,11 @@
 		    "access_rules": ["lemurian_ship,aqua_stone,frost_jewel"],
         "sections": [
           {
-            "name": "Exterior",
-            "item_count": 3,
-            "clear_as_group": false
-          },
-          {
-            "name": "Frost Required (Exterior)",
-            "short_name": "Ext. +Frost",
-            "item_count": 1,
-            "access_rules": ["frost_jewel"],
-            "clear_as_group": false
-          },
-          {
-		        "name": "Interior 3F",
-            "short_name": "Int. 3F",
-			      "item_count": 2,
-            "access_rules": ["frost_jewel"],
-			      "clear_as_group": false
-		      },
-          {
-		        "name": "Interior",
-			      "item_count": 4,
+		        "name": "Aquarius Stone",
+			      "item_count": 1,
             "access_rules": ["frost_jewel", "parch"],
 			      "clear_as_group": false
 		      },
-          {
-		        "name": "Frost Required (Interior)",
-            "short_name": "Int. +Frost",
-			      "item_count": 1,
-            "access_rules": ["frost_jewel"],
-			      "clear_as_group": false
-		      },
-          {
-            "name": "Submerged Chest",
-			      "short_name": "+Parch",
-            "item_count": 1,
-            "access_rules": ["parch"],
-            "clear_as_group": false
-          },
           {
             "name": "Parch Tablet",
 			      "short_name": "Tablet",
@@ -326,22 +226,7 @@
         ],
         "children": [
           {
-            "name": "0xF69,0xF6B,0xF68"
-          },
-          {
-            "name": "0xF6A"
-          },
-          {
-            "name": "0xF70,0xF71"
-          },
-          {
-            "name": "0xF72,0xE73,0xF6E,0xF6D"
-          },
-          {
-            "name": "0xF6C"
-          },
-          {
-            "name": "0xF6F"
+            "name": "0xF6D"
           },
           {
             "name": "0x9AE"
@@ -361,10 +246,10 @@
             "y": 3860
           }
         ],
-		"access_rules": ["boss,parch"],
+		    "access_rules": ["boss,parch"],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Coatlicue",
             "item_count": 1,
             "clear_as_group": false
           }
@@ -385,13 +270,8 @@
             "y": 3395
           }
         ],
-		"access_rules": ["lemurian_ship,grindstone"],
+		    "access_rules": ["lemurian_ship,grindstone"],
         "sections": [
-          {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
           {
             "name": "Djinni",
             "hosted_item": "venus_9",
@@ -399,9 +279,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFC4"
-          },
           {
             "name": "0x3F"
           }
@@ -420,13 +297,6 @@
 		    "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Reveal Chest",
-			      "short_name": "Reveal",
-            "item_count": 1,
-            "access_rules": ["reveal"],
-            "clear_as_group": false
-          },
-          {
             "name": "Trident",
             "item_count": 1,
             "access_rules": ["briggs_jailbreak,center_prong,left_prong,right_prong,reveal"],
@@ -434,9 +304,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFAA"
-          },
           {
             "name": "0x978"
           }
@@ -455,18 +322,6 @@
 		"access_rules": ["lemurian_ship,grindstone"],
         "sections": [
           {
-            "name": "Free Corn",
-			      "short_name": "Corn",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-		      {
-            "name": "Anemos Sanctum",
-            "item_count": 1,
-            "access_rules": ["reveal"],
-            "clear_as_group": false
-          },
-          {
             "name": "Reunion",
             "hosted_item": "reunion",
             "access_rules": ["boss"]
@@ -483,12 +338,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFC6"
-          },
-		      {
-            "name": "0xE04"
-          },
           {
             "name": "0x9D0"
           },
@@ -512,13 +361,14 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Sea God's Tear",
+            "short_name": "Sanctum",
             "item_count": 1,
             "access_rules": ["frost_jewel"],
             "clear_as_group": false
           },
           {
-            "name": "Tutorial Djinni",
+            "name": "Djinni",
             "short_name": "Echo",
             "hosted_item": "venus_10"
           }
@@ -544,15 +394,8 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 5,
-            "clear_as_group": false
-          },
-          {
-            "name": "Lash Required",
-			      "short_name": "+Lash",
+            "name": "Pound Cube",
             "item_count": 1,
-            "access_rules": ["lash_pebble"],
             "clear_as_group": false
           },
           {
@@ -563,10 +406,7 @@
         ],
         "children": [
           {
-            "name": "0xF07,0xF08,0xF09,0xF0A,0x878"
-          },
-          {
-            "name": "0xF0B"
+            "name": "0x878"
           },
           {
             "name": "0x5F"
@@ -586,7 +426,7 @@
 		    "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Pretty Stone",
             "item_count": 1,
             "clear_as_group": false
           }
@@ -610,7 +450,8 @@
 		    "access_rules": ["gabomba_statue,cyclone_chip"],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Tomegathericon",
+            "short_name": "Book",
             "item_count": 1,
             "access_rules": ["frost_jewel,reveal"],
             "clear_as_group": false
@@ -645,18 +486,6 @@
 		    ],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 2,
-            "clear_as_group": false
-          },
-          {
-            "name": "Lash Required",
-            "short_name": "+Lash",
-            "item_count": 1,
-            "access_rules": ["lash_pebble"],
-            "clear_as_group": false
-          },
-          {
             "name": "Black Crystal",
 			      "short_name": "Orb",
             "item_count": 1,
@@ -676,12 +505,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xF51,0xE72"
-          },
-          {
-            "name": "0xF52"
-          },
           {
             "name": "0x8FF"
           },
@@ -706,32 +529,15 @@
         "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Exterior",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
-            "name": "Interior",
-            "item_count": 2,
-            "access_rules": ["[growth]"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Summit Chest",
-            "item_count": 1,
-            "access_rules": ["whirlwind"],
-            "clear_as_group": false
-          },
-          {
             "name": "Dancing Idol",
-			"short_name": "Idol",
+			      "short_name": "Idol",
             "item_count": 1,
             "access_rules": ["whirlwind,reveal"],
             "clear_as_group": false
           },
           {
             "name": "Sand Tablet",
-			"short_name": "Tablet",
+			      "short_name": "Tablet",
             "item_count": 1,
             "access_rules": ["[growth],dancing_idol,cyclone_chip"],
             "clear_as_group": false
@@ -743,15 +549,6 @@
           }
         ],
         "children": [
-		  {
-            "name": "0xF73"
-          },
-          {
-            "name": "0xE74,0xF76"
-          },
-          {
-            "name": "0xF75"
-          },
           {
             "name": "0xF74"
           },
@@ -775,21 +572,12 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["reveal"],
-            "clear_as_group": false
-          },
-          {
             "name": "Djinni",
             "hosted_item": "jupiter_2",
             "access_rules": ["reveal"]
           }
         ],
         "children": [
-          {
-            "name": "0xF2D"
-          },
           {
             "name": "0x75"
           }
@@ -805,16 +593,17 @@
             "y": 4160
           }
         ],
-		"access_rules": ["frost_jewel", "scoop_gem", "$canAccessNaribwe,briggs_battle", "whirlwind,[skips_oobhard_on],briggs_battle"],
+		    "access_rules": ["frost_jewel", "scoop_gem", "$canAccessNaribwe,briggs_battle", "whirlwind,[skips_oobhard_on],briggs_battle"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 2,
+            "name": "Laughing Fungus",
+            "short_name": "Bad Fungus",
+            "item_count": 1,
             "clear_as_group": false
           },
           {
             "name": "Healing Fungus",
-			      "short_name": "Fungus",
+			      "short_name": "Good Fungus",
             "item_count": 1,
             "access_rules": ["frost_jewel"],
             "clear_as_group": false
@@ -826,37 +615,13 @@
         ],
         "children": [
           {
-            "name": "0xF41,0xF43"
+            "name": "0xF41"
           },
           {
             "name": "0xF40"
           },
           {
             "name": "0x61"
-          }
-        ]
-      },
-      {
-        "name": "Gondowan Settlement",
-        "map_locations": [
-          {
-            "map": "weyard",
-            "size": 90,
-            "x": 2875,
-            "y": 2910
-          }
-        ],
-		"access_rules": ["lemurian_ship,grindstone,cyclone_chip"],
-        "sections": [
-          {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          }
-        ],
-        "children": [
-          {
-            "name": "0xFC0"
           }
         ]
       },
@@ -870,13 +635,8 @@
             "y": 2050
           }
         ],
-		"access_rules": ["lemurian_ship,grindstone,growth"],
+		    "access_rules": ["lemurian_ship,grindstone,growth"],
         "sections": [
-          {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
           {
             "name": "Djinni",
             "hosted_item": "mars_7"
@@ -884,25 +644,9 @@
         ],
         "children": [
           {
-            "name": "0xFC2"
-          },
-          {
             "name": "0x66"
           }
         ]
-      },
-      {
-        "name": "Idejima",
-        "map_locations": [
-          {
-            "map": "weyard",
-            "size": 90,
-            "x": 4380,
-            "y": 3190
-          }
-        ],
-        "sections": [],
-        "children": []
       },
       {
         "name": "Indra Cavern",
@@ -916,7 +660,7 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Zagan",
             "item_count": 1,
             "access_rules": ["lash_pebble"],
             "clear_as_group": false
@@ -941,13 +685,7 @@
 		    "access_rules": ["lemurian_ship,mind_read,li'l_turtle"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 2,
-            "clear_as_group": false
-          },
-          {
-            "name": "Summon Tablet",
-			      "short_name": "Tablet",
+            "name": "Catastrophe",
             "item_count": 1,
             "access_rules": ["reunion,teleport_lapis"],
             "clear_as_group": false
@@ -963,9 +701,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFA8,0xFA9"
-          },
           {
             "name": "0x1A"
           },
@@ -987,17 +722,10 @@
             "y": 1990
           }
         ],
-		"access_rules": ["lemurian_ship"],
+		    "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["reveal,sand,frost_jewel,pound_cube"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Summon Tablet",
-			      "short_name": "Tablet",
+            "name": "Ulysses",
             "item_count": 1,
             "access_rules": ["reveal,sand,frost_jewel,pound_cube,parch"],
             "clear_as_group": false
@@ -1009,9 +737,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFA6"
-          },
           {
             "name": "0x14"
           },
@@ -1032,28 +757,16 @@
         ],
 		    "access_rules": ["lemurian_ship,grindstone,cyclone_chip,hover_jade"],
         "sections": [
-		      {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
           {
-            "name": "Requires Reveal",
-			      "short_name": "+Reveal",
-            "item_count": 4,
+            "name": "Red Key",
+            "item_count": 1,
             "access_rules": ["reveal"],
             "clear_as_group": false
           },
           {
-            "name": "Left Wing",
-            "item_count": 4,
+            "name": "Blue Key",
+            "item_count": 1,
             "access_rules": ["red_key"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Right Wing",
-            "item_count": 2,
-            "access_rules": ["reveal,blue_key"],
             "clear_as_group": false
           },
           {
@@ -1068,17 +781,11 @@
           }
         ],
         "children": [
-		      {
-            "name": "0xFE3"
+          {
+            "name": "0xFE7"
           },
           {
-            "name": "0xFE5,0xFE6,0xFE7,0xFE4"
-          },
-          {
-            "name": "0xE76,0xFE9,0xFEA,0xFE8"
-          },
-          {
-            "name": "0xFEB,0xFEC"
+            "name": "0xFE8"
           },
           {
             "name": "0xA21"
@@ -1125,8 +832,14 @@
 		    "access_rules": ["whirlwind"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 3,
+            "name": "Mysterious Card",
+            "short_name": "Card",
+            "item_count": 1,
+            "clear_as_group": false
+          },
+          {
+            "name": "Lash Pebble",
+            "item_count": 1,
             "clear_as_group": false
           },
           {
@@ -1137,7 +850,10 @@
         ],
         "children": [
           {
-            "name": "0xE70,0xF06,0x84A"
+            "name": "0xF06"
+          },
+          {
+            "name": "0x84A"
           },
           {
             "name": "0x4B"
@@ -1171,49 +887,6 @@
         ]
       },
       {
-        "name": "Kibombo Mountains",
-        "map_locations": [
-          {
-            "map": "weyard",
-            "size": 90,
-            "x": 3330,
-            "y": 3430
-          }
-        ],
-		    "access_rules": ["$canAccessNaribwe"],
-        "sections": [
-          {
-            "name": "Upper Screen",
-			      "short_name": "Upper",
-            "item_count": 2,
-            "access_rules": ["lash_pebble"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Lower Screen",
-			      "short_name": "Lower",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
-            "name": "Djinni",
-            "hosted_item": "jupiter_4",
-            "access_rules": ["frost_jewel,growth"]
-          }
-        ],
-        "children": [
-          {
-            "name": "0xF49,0xF4A"
-          },
-          {
-            "name": "0xF4B"
-          },
-          {
-            "name": "0x76"
-          }
-        ]
-      },
-      {
         "name": "Lemuria",
         "map_locations": [
           {
@@ -1226,14 +899,13 @@
 		    "access_rules": ["lemurian_ship,grindstone", "lemurian_ship,trident"],
         "sections": [
           {
-            "name": "Summon Tablet",
-			      "short_name": "Eclipse",
+            "name": "Eclipse",
             "item_count": 1,
             "access_rules": ["lucky_medal"],
             "clear_as_group": false
           },
           {
-            "name": "Treasures",
+            "name": "Grindstone",
             "item_count": 1,
             "clear_as_group": false
           },
@@ -1268,31 +940,12 @@
 		    "access_rules": ["$canAccessShip"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["frost_jewel"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Submerged Chest",
-            "short_name": "+Parch",
-            "item_count": 1,
-            "access_rules": ["[frost_jewel],parch", "skips_oobhard_on,parch"],
-            "clear_as_group": false
-          },
-          {
             "name": "Lemurian Ship",
             "hosted_item": "lemurian_ship",
             "access_rules": ["[frost_jewel],douse_drop", "skips_oobhard_on,douse_drop"]
           }
         ],
         "children": [
-          {
-            "name": "0xF54"
-          },
-          {
-            "name": "0xF58"
-          },
           {
             "name": "0x8DE"
           }
@@ -1308,7 +961,7 @@
             "y": 1850
           }
         ],
-		"access_rules": ["lemurian_ship,grindstone,magma_ball"],
+		    "access_rules": ["lemurian_ship,grindstone,magma_ball"],
         "sections": [
           {
             "name": "Cannon",
@@ -1341,13 +994,7 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
-            "name": "Mayor's Gift",
-			      "short_name": "Mayor",
+            "name": "Cyclone Chip",
             "item_count": 1,
             "access_rules": ["gabomba_statue"],
             "clear_as_group": false
@@ -1359,9 +1006,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xF0C"
-          },
           {
             "name": "0x918"
           },
@@ -1383,27 +1027,18 @@
 		    "access_rules": ["reveal"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 3,
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Frost",
-			      "short_name": "+Frost",
+            "name": "Tremor Bit",
             "item_count": 1,
-            "access_rules": ["lash_pebble,frost_jewel"],
             "clear_as_group": false
           },
           {
-            "name": "Requires Tremor",
-			      "short_name": "+Tremor",
+            "name": "Ruin Key",
             "item_count": 1,
             "access_rules": ["lash_pebble,frost_jewel,tremor_bit"],
             "clear_as_group": false
           },
           {
-            "name": "Summon Tablet",
-			      "short_name": "Tablet",
+            "name": "Moloch",
             "item_count": 1,
             "access_rules": ["ruin_key"],
             "clear_as_group": false
@@ -1411,10 +1046,7 @@
         ],
         "children": [
           {
-            "name": "0xF13,0xF16,0xF14"
-          },
-          {
-            "name": "0xF42"
+            "name": "0xF16"
           },
           {
             "name": "0xF15"
@@ -1434,38 +1066,13 @@
             "y": 2870
           }
         ],
-		"access_rules": ["lemurian_ship,grindstone,lifting_gem"],
+		    "access_rules": ["lemurian_ship,grindstone,lifting_gem"],
         "sections": [
-		  {
-            "name": "Exterior",
+          {
+            "name": "Blaze Tablet",
+			      "short_name": "Tablet",
             "item_count": 1,
-            "access_rules": ["burst_brooch"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Growth",
-			      "short_name": "+Growth",
-            "item_count": 3,
-            "access_rules": ["burst_brooch,growth"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Lash",
-            "short_name": "+Lash",
-            "item_count": 1,
-            "access_rules": ["burst_brooch,growth,lash_pebble"]
-          },
-          {
-            "name": "Requires Whirlwind",
-			      "short_name": "+Whirlwind",
-            "item_count": 3,
             "access_rules": ["burst_brooch,growth,whirlwind,lash_pebble"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Entrance Mimic",
-			      "short": "Entrance",
-            "item_count": 1,
             "clear_as_group": false
           },
           {
@@ -1486,20 +1093,8 @@
           }
         ],
         "children": [
-		      {
-            "name": "0xFED"
-          },
           {
-            "name": "0xFEE,0xFF0,0xFF1"
-          },
-          {
-            "name": "0xFEF"
-          },
-          {
-            "name": "0x9FA,0xFF2,0xFF4"
-          },
-          {
-            "name": "0xE77"
+            "name": "0x9FA"
           },
           {
             "name": "0x9F9"
@@ -1525,20 +1120,9 @@
 		    "access_rules": ["cannon"],
         "sections": [
           {
-            "name": "Basement",
-            "item_count": 3,
+            "name": "Mars Star",
+            "item_count": 1,
             "access_rules": ["burst_brooch,blaze,reveal,teleport_lapis"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Elevator",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
-            "name": "Ground Floor",
-            "item_count": 1,
-            "access_rules": ["pound_cube"],
             "clear_as_group": false
           },
           {
@@ -1546,13 +1130,6 @@
 			      "short_name": "Teleport",
             "item_count": 1,
             "access_rules": ["pound_cube,burst_brooch,blaze", "pound_cube,burst_brooch,teleport_lapis"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Orihalcon Chest",
-			      "short_name": "Orihalcon",
-            "item_count": 1,
-            "access_rules": ["pound_cube,burst_brooch,blaze"],
             "clear_as_group": false
           },
           {
@@ -1569,19 +1146,10 @@
         ],
         "children": [
           {
-            "name": "0xE01,0xE02,0xA3A"
-          },
-          {
-            "name": "0xFFD"
-          },
-          {
-            "name": "0xE78"
+            "name": "0xA3A"
           },
           {
             "name": "0xFFE"
-          },
-          {
-            "name": "0xE00"
           },
           {
             "name": "0xA4B"
@@ -1604,18 +1172,6 @@
         "access_rules": ["mars_lit"],
         "sections": [
           {
-            "name": "Mars Wing",
-            "item_count": 1,
-            "access_rules": ["$canAccessUpperMars"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Jupiter Wing",
-            "item_count": 1,
-            "access_rules": ["$canAccessUpperMars,cyclone_chip,[hover_jade]", "$canAccessUpperMars,cyclone_chip,skips_basic_on"],
-            "clear_as_group": false
-          },
-          {
             "name": "Doom Dragon",
             "hosted_item": "doom_dragon",
             "short_name": "Victory",
@@ -1630,12 +1186,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFFF"
-          },
-          {
-            "name": "0xE03"
-          },
           {
             "name": "0x778"
           },
@@ -1656,20 +1206,12 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
             "name": "Djinni",
             "hosted_item": "mars_3",
             "access_rules": ["scoop_gem"]
           }
         ],
         "children": [
-          {
-            "name": "0xF28"
-          },
           {
             "name": "0x60"
           }
@@ -1688,7 +1230,7 @@
         "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Milk",
             "item_count": 1,
             "access_rules": ["mind_read,sand,red_cloth"],
             "clear_as_group": false
@@ -1697,40 +1239,6 @@
         "children": [
           {
             "name": "0xAA3"
-          }
-        ]
-      },
-      {
-        "name": "Naribwe",
-        "map_locations": [
-          {
-            "map": "weyard",
-            "size": 90,
-            "x": 3350,
-            "y": 3850
-          }
-        ],
-		    "access_rules": ["$canAccessNaribwe", "whirlwind,[skips_oobhard_on]"],
-        "sections": [
-          {
-            "name": "Reveal Chest",
-            "item_count": 1,
-            "access_rules": ["reveal,whirlwind"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["lash_pebble"],
-            "clear_as_group": false
-          }
-        ],
-        "children": [
-          {
-            "name": "0xF45"
-          },
-          {
-            "name": "0xF44"
           }
         ]
       },
@@ -1746,7 +1254,7 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Megaera",
             "item_count": 1,
             "access_rules": ["scoop_gem"],
             "clear_as_group": false
@@ -1755,30 +1263,6 @@
         "children": [
           {
             "name": "0x11"
-          }
-        ]
-      },
-      {
-        "name": "Osenia Cliffs",
-        "map_locations": [
-          {
-            "map": "weyard",
-            "size": 90,
-            "x": 4360,
-            "y": 4070
-          }
-        ],
-        "sections": [
-          {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["lash_pebble"],
-            "clear_as_group": false
-          }
-        ],
-        "children": [
-          {
-            "name": "0xF17"
           }
         ]
       },
@@ -1826,7 +1310,7 @@
         "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Red Cloth",
             "item_count": 1,
             "access_rules": ["frost_jewel,mind_read,pretty_stone"],
             "clear_as_group": false
@@ -1851,20 +1335,12 @@
 		    "access_rules": ["lemurian_ship,grindstone"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
             "name": "Djinni",
             "hosted_item": "jupiter_7",
             "access_rules": ["lifting_gem"]
           }
         ],
         "children": [
-          {
-            "name": "0xFC3"
-          },
           {
             "name": "0x72"
           }
@@ -1882,29 +1358,8 @@
         ],
 		    "access_rules": ["lemurian_ship,grindstone,whirlwind"],
         "sections": [
-          {
-            "name": "Sand Wall",
-            "item_count": 1,
-            "access_rules": ["shaman's_rod"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Hover",
-			      "short_name": "+Hover",
-            "item_count": 1,
-            "access_rules": ["shaman's_rod,hover_jade,lifting_gem"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Growth",
-			      "short_name": "+Growth",
-            "item_count": 1,
-            "access_rules": ["growth"],
-            "clear_as_group": false
-          },
 		      {
-			      "name": "Trial Road Reward",
-			      "short_name": "Hover Jade",
+			      "name": "Hover Jade",
             "item_count": 1,
             "access_rules": ["shaman's_rod"],
             "clear_as_group": false
@@ -1926,15 +1381,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xF5F"
-          },
-          {
-            "name": "0xE5A"
-          },
-          {
-            "name": "0xFC8"
-          },
           {
             "name": "0x94D"
           },
@@ -1985,12 +1431,6 @@
 		    "access_rules": ["[lash_pebble]", "skips_oobeasy_on"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["[frost_jewel]", "skips_oobeasy_on"],
-            "clear_as_group": false
-          },
-          {
             "name": "Prong",
             "item_count": 1,
             "access_rules": ["[frost_jewel],reveal,sea_god's_tear", "skips_oobeasy_on,reveal,sea_god's_tear"],
@@ -2002,9 +1442,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xF59"
-          },
           {
             "name": "0x8C7"
           },
@@ -2026,29 +1463,12 @@
 		    "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 1,
-            "clear_as_group": false
-          },
-          {
-            "name": "Magma Zone",
-            "item_count": 1,
-            "access_rules": ["growth,whirlwind,douse_drop,frost_jewel"],
-            "clear_as_group": false
-          },
-          {
             "name": "Djinni",
             "hosted_item": "venus_5",
             "access_rules": ["whirlwind"]
           }
         ],
         "children": [
-          {
-            "name": "0xF98"
-          },
-          {
-            "name": "0xF65"
-          },
           {
             "name": "0x3B"
           }
@@ -2067,27 +1487,7 @@
 		    "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 12,
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Grind",
-			      "short_name": "+Grind",
-            "item_count": 8,
-            "access_rules": ["grindstone"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Lift",
-		    	  "short_name": "+Lift",
-            "item_count": 2,
-            "access_rules": ["grindstone,lifting_gem"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Summon Tablet",
-			      "short_name": "Tablet",
+            "name": "Azul",
             "item_count": 1,
             "access_rules": ["grindstone,lifting_gem,reunion"],
             "clear_as_group": false
@@ -2104,15 +1504,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xFCD,0xFCE,0xFCF,0xFD0,0xFD1,0xFD2,0xFD3,0xFD4,0xFD5,0xFD6,0xFD7,0xFD8"
-          },
-          {
-            "name": "0xFDF,0xE75,0xFD9,0xFDA,0xFDB,0xFDC,0xFDD,0xFDE"
-          },
-          {
-            "name": "0xFE1,0xFE0"
-          },
           {
             "name": "0x19"
           },
@@ -2137,25 +1528,6 @@
 		    "access_rules": ["lemurian_ship"],
         "sections": [
           {
-            "name": "Ground Floor",
-            "item_count": 4,
-            "access_rules": ["parch,burst_brooch"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Upper Floors",
-            "item_count": 2,
-            "access_rules": ["parch"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Pound",
-            "short_name": "+Pound",
-            "item_count": 2,
-            "access_rules": ["parch,pound_cube"],
-            "clear_as_group": false
-          },
-          {
             "name": "Prong",
             "item_count": 1,
             "access_rules": ["burst_brooch"],
@@ -2175,15 +1547,6 @@
           }
         ],
         "children": [
-          {
-            "name": "0xF81,0xF82,0xF83,0xF84"
-          },
-          {
-            "name": "0xF85,0xF86"
-          },
-          {
-            "name": "0xF88,0xF87"
-          },
           {
             "name": "0x945"
           },
@@ -2207,7 +1570,7 @@
         ],
         "sections": [
           {
-            "name": "Treasures",
+            "name": "Li'l Turtle",
             "item_count": 1,
             "access_rules": ["lemurian_ship,mind_read,milk"],
             "clear_as_group": false
@@ -2216,30 +1579,6 @@
         "children": [
           {
             "name": "0xAA1"
-          }
-        ]
-      },
-      {
-        "name": "Yallam",
-        "map_locations": [
-          {
-            "map": "weyard",
-            "size": 90,
-            "x": 6450,
-            "y": 4270
-          }
-        ],
-        "sections": [
-          {
-            "name": "Treasures",
-            "item_count": 1,
-            "access_rules": ["lemurian_ship,orb_of_force,cyclone_chip"],
-            "clear_as_group": false
-          }
-        ],
-        "children": [
-          {
-            "name": "0xF95"
           }
         ]
       },
@@ -2255,45 +1594,10 @@
         ],
         "sections": [
           {
-            "name": "Requires Pound",
-			      "short_name": "+Pound",
-            "item_count": 2,
-            "access_rules": ["pound_cube", "sand"],
-            "clear_as_group": false
-          },
-          {
             "name": "Trainer's Whip",
 			      "short_name": "Whip",
             "item_count": 1,
             "access_rules": ["lash_pebble,scoop_gem", "[sand]", "skips_oobeasy_on"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Reveal Chest",
-			      "short_name": "Reveal",
-            "item_count": 1,
-            "access_rules": ["reveal,[sand]", "reveal,skips_oobeasy_on", "reveal,scoop_gem"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Requires Sand",
-			      "short_name": "+Sand",
-            "item_count": 1,
-            "access_rules": ["sand"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Sand Flow Cave Bottom",
-			      "short_name": "Cave Bottom",
-            "item_count": 1,
-            "access_rules": ["[sand]", "skips_oobeasy_on", "scoop_gem"],
-            "clear_as_group": false
-          },
-          {
-            "name": "Sand Flow Cave Top",
-			      "short_name": "Cave Top",
-            "item_count": 1,
-            "access_rules": ["[sand],pound_cube", "skips_oobeasy_on,pound_cube", "scoop_gem,pound_cube"],
             "clear_as_group": false
           },
           {
@@ -2313,22 +1617,7 @@
         ],
         "children": [
           {
-            "name": "0xF18,0xF19"
-          },
-          {
             "name": "0xF1A"
-          },
-          {
-            "name": "0x88E"
-          },
-          {
-            "name": "0xF8A"
-          },
-          {
-            "name": "0xF1B"
-          },
-          {
-            "name": "0xF1C"
           },
           {
             "name": "0x88C"
@@ -2351,8 +1640,8 @@
 		    "access_rules": ["reunion,sand,teleport_lapis,burst_brooch"],
         "sections": [
           {
-            "name": "Treasures",
-            "item_count": 3,
+            "name": "Daedalus",
+            "item_count": 1,
             "clear_as_group": false
           },
           {
@@ -2363,7 +1652,7 @@
         ],
         "children": [
           {
-            "name": "0xF8C,0xF8D,0x18"
+            "name": "0x18"
           },
           {
             "name": "0x41"

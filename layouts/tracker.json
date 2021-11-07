@@ -1,4 +1,33 @@
 {
+    "settings_popup": {
+        "type": "array",
+        "content": [
+            {
+                "type": "canvas",
+                "width": 128,
+                "height": 96,
+                "content":[
+                    {
+                        "type": "item",
+                        "height": 32,
+                        "item": "skips_basic"
+                    },
+                    {
+                        "type": "item",
+                        "height": 32,
+                        "canvas_top": 32,
+                        "item": "skips_oobeasy"
+                    },
+                    {
+                        "type": "item",
+                        "height": 32,
+                        "canvas_top": 64,
+                        "item": "skips_oobhard"
+                    }
+                ]
+            }
+        ]
+    },
     "tracker_default": {
         "type": "container",
         "background": "#877373",
@@ -36,6 +65,12 @@
                             "type": "group",
                             "header": "Items",
                             "dock": "top",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            },
                             "content": {
                                 "type": "layout",
                                 "key": "tracker_items"
@@ -58,7 +93,7 @@
                                 "type": "layout",
                                 "key": "tracker_summons_and_djinn"
                             }
-                        },
+                        }
                     ]
                 },
                 {
@@ -67,5 +102,5 @@
                 }
             ]
         }
-    },
+    }
 }

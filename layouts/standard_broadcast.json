@@ -12,10 +12,10 @@
 			"margin": "0,4,0,1",
 			"item_margin": "-0.2,-0.2,-0.2,-0.2",
 			"rows": [
-			    ["lucky_medal", "shaman's_rod", "sea_god's_tear","healing_fungus","black_crystal","ruin_key","red_key","blue_key"],
+			    ["lucky_medal", "shaman's_rod", "sea_god's_tear","ruin_key","red_key","blue_key","black_crystal","lemurian_ship"],
 			    ["left_prong", "center_prong","right_prong","trident","aquarius_stone","dancing_idol","magma_ball","mars_star"],
-			    ["trainer's_whip","tomegathericon","mysterious_card","pretty_stone","red_cloth","milk","li'l_turtle"],
-			],
+			    ["trainer's_whip","tomegathericon","mysterious_card","healing_fungus","pretty_stone","red_cloth","milk","li'l_turtle"]
+			]
 		    },
 		    {
 			"type": "itemgrid",
@@ -24,7 +24,7 @@
 			"rows": [
 			    ["whirlwind", "growth","mind_read","lash_pebble","pound_cube","tremor_bit","scoop_gem","reveal"],
 			    ["frost_jewel", "douse_drop","cyclone_chip","parch","sand","grindstone","hover_jade"],
-			    ["blaze", "burst_brooch","teleport_lapis","lifting_gem","orb_of_force","carry_stone","catch_beads"],
+			    ["blaze", "burst_brooch","teleport_lapis","lifting_gem","orb_of_force","carry_stone","catch_beads"]
 			]
 		    },
 		    {
@@ -38,7 +38,7 @@
 				"rows": [
 				    ["zagan", "flora", "megaera", "moloch"],
 				    ["ulysses", "eclipse", "haures","coatlicue"],
-				    ["daedalus", "catastrophe", "azul", "charon", "iris"],
+				    ["daedalus", "catastrophe", "azul", "charon", "iris"]
 				]
 			    },
 			    {
@@ -49,9 +49,9 @@
 				"margin": "6,0,0,0",
 				"rows": [
 				    ["venus", "mercury"],
-				    ["mars", "jupiter"],
+				    ["mars", "jupiter"]
 				]
-			    },
+			    }
 			]
 		    }
 		]

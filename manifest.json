@@ -7,10 +7,13 @@
   "author": "MarvinXLII, Karanum",
   "variants": {
     "standard": {
-      "display_name": "Most Items"
+      "display_name": "Chest/Tablet Shuffle"
     },
-	"all_items": {
-	  "display_name": "All Items"
-	}
+    "all_items": {
+      "display_name": "All Items Shuffle"
+    },
+    "key_items": {
+      "display_name": "Key Items Shuffle"
+    }
   }
 }

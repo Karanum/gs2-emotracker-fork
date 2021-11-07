@@ -12,11 +12,11 @@
 			"lucky_medal",
 			"shaman's_rod",
 			"sea_god's_tear",
-			"healing_fungus",
-			"black_crystal",
 			"ruin_key",
 			"red_key",
-			"blue_key"
+			"blue_key",
+			"black_crystal",
+			"lemurian_ship"
 		    ],
 		    [
 			"left_prong",
@@ -32,6 +32,7 @@
 			"trainer's_whip",
 			"tomegathericon",
 			"mysterious_card",
+			"healing_fungus",
 			"pretty_stone",
 			"red_cloth",
 			"milk",
@@ -52,11 +53,11 @@
 		    "lucky_medal",
 		    "shaman's_rod",
 		    "sea_god's_tear",
-		    "healing_fungus",
-		    "black_crystal",
 		    "ruin_key",
 		    "red_key",
-		    "blue_key"
+		    "blue_key",
+			"black_crystal",
+			"lemurian_ship"
 		],
 		[
 		    "left_prong",
@@ -66,12 +67,13 @@
 		    "aquarius_stone",
 		    "dancing_idol",
 		    "magma_ball",
-            	    "mars_star"
+            "mars_star"
 		],
 		[
 		    "trainer's_whip",
 		    "tomegathericon",
 		    "mysterious_card",
+			"healing_fungus",
 		    "pretty_stone",
 		    "red_cloth",
 		    "milk",

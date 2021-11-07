@@ -1,0 +1,80 @@
+[
+	{
+    "name": "Reunion",
+    "type": "toggle",
+    "img": "images/hosts/Isaac.gif",
+    "codes": "reunion"
+  },
+  {
+    "name": "Piers",
+    "type": "toggle",
+    "img": "images/hosts/Piers.gif",
+    "codes": "piers"
+  },
+  {
+    "name": "Lemurian Ship",
+    "type": "toggle",
+    "img": "images/important/Lemurian_Ship.png",
+    "codes": "lemurian_ship"
+  },
+  {
+    "name": "Cannon",
+    "type": "toggle",
+    "img": "images/hosts/Cannon.gif",
+    "codes": "cannon"
+  },
+  {
+    "name": "Trial Road",
+    "type": "toggle",
+    "img": "images/hosts/Moapa.gif",
+    "codes": "trial_road"
+  },
+  {
+    "name": "Briggs Battle",
+    "type": "toggle",
+    "img": "images/hosts/Briggs.gif",
+    "codes": "briggs_battle"
+  },
+  {
+    "name": "Briggs Jailbreak",
+    "type": "toggle",
+    "img": "images/hosts/Briggs.gif",
+    "codes": "briggs_jailbreak"
+  },
+  {
+    "name": "Gabomba Statue",
+    "type": "toggle",
+    "img": "images/hosts/Gabomba_Statue.gif",
+    "codes": "gabomba_statue"
+  },
+  {
+    "name": "Jupiter Lighthouse Boss",
+    "type": "toggle",
+    "img": "images/hosts/Karst.gif",
+    "codes": "boss"
+  },
+  {
+    "name": "Aqua Stone",
+    "type": "toggle",
+    "img": "images/hosts/apojii.png",
+    "codes": "aqua_stone"
+  },
+  {
+    "name": "Susa",
+    "type": "toggle",
+    "img": "images/hosts/Susa.gif",
+    "codes": "susa"
+  },
+  {
+    "name": "Mars Lit",
+    "type": "toggle",
+    "img": "images/hosts/Mars_LH.png",
+    "codes": "mars_lit"
+  },
+  {
+    "name": "Doom Dragon",
+    "type": "toggle",
+    "img": "images/hosts/Doom_Dragon_OW.gif",
+    "codes": "doom_dragon"
+  }
+]

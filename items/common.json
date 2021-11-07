@@ -44,112 +44,96 @@
   {
     "name": "Teleport Lapis",
     "type": "toggle",
-    // "img": "images/psynergy-items/Teleport_Lapis.gif",
     "img": "images/psynergy/Teleport.gif",
     "codes": "teleport_lapis"
   },
   {
     "name": "Burst Brooch",
     "type": "toggle",
-    // "img": "images/psynergy-items/Burst_Brooch.gif",
     "img": "images/psynergy/Burst.gif",
     "codes": "burst_brooch"
   },
   {
     "name": "Lifting Gem",
     "type": "toggle",
-    // "img": "images/psynergy-items/Lifting_Gem.gif",
     "img": "images/psynergy/Lift.gif",
     "codes": "lifting_gem"
   },
   {
     "name": "Scoop Gem",
     "type": "toggle",
-    // "img": "images/psynergy-items/Scoop_Gem.gif",
     "img": "images/psynergy/Scoop.gif",
     "codes": "scoop_gem"
   },
   {
     "name": "Frost Jewel",
     "type": "toggle",
-    // "img": "images/psynergy-items/Frost_Jewel.gif",
     "img": "images/psynergy/Frost.gif",
     "codes": "frost_jewel"
   },
   {
     "name": "Grindstone",
     "type": "toggle",
-    // "img": "images/psynergy-items/Grindstone.gif",
     "img": "images/psynergy/Grind.gif",
     "codes": "grindstone"
   },
   {
     "name": "Tremor Bit",
     "type": "toggle",
-    // "img": "images/psynergy-items/Tremor_Bit.gif",
     "img": "images/psynergy/Tremor.gif",
     "codes": "tremor_bit"
   },
   {
     "name": "Halt Gem",
     "type": "toggle",
-    // "img": "images/psynergy-items/Halt_Gem.gif",
     "img": "images/psynergy/Halt.gif",
     "codes": "halt_gem"
   },
   {
     "name": "Lash Pebble",
     "type": "toggle",
-    // "img": "images/psynergy-items/Lash_Pebble.gif",
     "img": "images/psynergy/Lash.gif",
     "codes": "lash_pebble"
   },
   {
     "name": "Carry Stone",
     "type": "toggle",
-    // "img": "images/psynergy-items/Carry_Stone.gif",
     "img": "images/psynergy/Carry.gif",
     "codes": "carry_stone"
   },
   {
     "name": "Hover Jade",
     "type": "toggle",
-    // "img": "images/psynergy-items/Hover_Jade.gif",
     "img": "images/psynergy/Hover.gif",
     "codes": "hover_jade"
   },
   {
     "name": "Pound Cube",
     "type": "toggle",
-    // "img": "images/psynergy-items/Pound_Cube.gif",
     "img": "images/psynergy/Pound.gif",
     "codes": "pound_cube"
   },
   {
     "name": "Cyclone Chip",
     "type": "toggle",
-    // "img": "images/psynergy-items/Cyclone_Chip.gif",
     "img": "images/psynergy/Cyclone.gif",
     "codes": "cyclone_chip"
   },
   {
     "name": "Catch Beads",
     "type": "toggle",
-    // "img": "images/psynergy-items/Catch_Beads.gif",
     "img": "images/psynergy/Catch.gif",
     "codes": "catch_beads"
   },
   {
     "name": "Orb of Force",
     "type": "toggle",
-    // "img": "images/psynergy-items/Orb_of_Force.gif",
     "img": "images/psynergy/Force.gif",
     "codes": "orb_of_force"
   },
   {
     "name": "Douse Drop",
     "type": "toggle",
-    // "img": "images/psynergy-items/Douse_Drop.gif",
     "img": "images/psynergy/Douse.gif",
     "codes": "douse_drop"
   },
@@ -381,568 +365,73 @@
     "img": "images/class/Mysterious_Card.gif",
     "codes": "mysterious_card"
   },
-  {
-    "name": "Venus Djinn",
-    "type": "consumable",
-    "img": "images/djinn/Venus.gif",
-    "codes": "venus",
-    "swap_actions": false,
-    "max_quantity": 18,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "consumable",
-    "img": "images/djinn/Mercury.gif",
-    "codes": "mercury",
-    "swap_actions": false,
-    "max_quantity": 18,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "consumable",
-    "img": "images/djinn/Mars.gif",
-    "codes": "mars",
-    "swap_actions": false,
-    "max_quantity": 18,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "consumable",
-    "img": "images/djinn/Jupiter.gif",
-    "codes": "jupiter",
-    "swap_actions": false,
-    "max_quantity": 18,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_0"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_1"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_2"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_3"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_4"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_5"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_6"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_7"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_8"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_9"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_10"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_11"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_12"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_13"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_14"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_15"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_16"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_17"
-  },
-  {
-    "name": "Venus Djinn",
-    "type": "toggle",
-    "img": "images/djinn/venus.gif",
-    "codes": "venus_18"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_0"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_1"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_2"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_3"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_4"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_5"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_6"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_7"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_8"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_9"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_10"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_11"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_12"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_13"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_14"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_15"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_16"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_17"
-  },
-  {
-    "name": "Mercury Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mercury.gif",
-    "codes": "mercury_18"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_0"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_1"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_2"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_3"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_4"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_5"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_6"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_7"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_8"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_9"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_10"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_11"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_12"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_13"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_14"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_15"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_16"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_17"
-  },
-  {
-    "name": "Mars Djinn",
-    "type": "toggle",
-    "img": "images/djinn/mars.gif",
-    "codes": "mars_18"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_0"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_1"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_2"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_3"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_4"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_5"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_6"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_7"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_8"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_9"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_10"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_11"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_12"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_13"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_14"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_15"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_16"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_17"
-  },
-  {
-    "name": "Jupiter Djinn",
-    "type": "toggle",
-    "img": "images/djinn/jupiter.gif",
-    "codes": "jupiter_18"
-  },
-  {
-    "name": "Reunion",
-    "type": "toggle",
-    "img": "images/hosts/Isaac.gif",
-    "codes": "reunion"
-  },
-  {
-    "name": "Piers",
-    "type": "toggle",
-    "img": "images/hosts/Piers.gif",
-    "codes": "piers"
-  },
-  {
-    "name": "Lemurian Ship",
-    "type": "toggle",
-    "img": "images/hosts/Lemurian_Ship.gif",
-    "codes": "lemurian_ship"
-  },
-  {
-    "name": "Cannon",
-    "type": "toggle",
-    "img": "images/hosts/Cannon.gif",
-    "codes": "cannon"
-  },
-  {
-    "name": "Trial Road",
-    "type": "toggle",
-    "img": "images/hosts/Moapa.gif",
-    "codes": "trial_road"
-  },
-  {
-    "name": "Briggs Battle",
-    "type": "toggle",
-    "img": "images/hosts/Briggs.gif",
-    "codes": "briggs_battle"
-  },
-  {
-    "name": "Briggs Jailbreak",
-    "type": "toggle",
-    "img": "images/hosts/Briggs.gif",
-    "codes": "briggs_jailbreak"
-  },
-  {
-    "name": "Gabomba Statue",
-    "type": "toggle",
-    "img": "images/hosts/Gabomba_Statue.gif",
-    "codes": "gabomba_statue"
-  },
-  {
-    "name": "Jupiter Lighthouse Boss",
-    "type": "toggle",
-    "img": "images/hosts/Karst.gif",
-    "codes": "boss"
-  },
-  {
-    "name": "Aqua Stone",
-    "type": "toggle",
-    "img": "images/hosts/apojii.png",
-    "codes": "aqua_stone"
-  },
-  {
-    "name": "Susa",
-    "type": "toggle",
-    "img": "images/hosts/Susa.gif",
-    "codes": "susa"
-  },
-  {
-    "name": "Doom Dragon",
-	"type": "toggle",
-	"img": "images/hosts/Doom_Dragon_OW.gif",
-	"codes": "doom_dragon"
-  }
+
+  {
+    "name": "Basic skips required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/Skips_basic_off.png",
+        "codes": "skips_basic,skips_basic_off"
+      },
+      {
+        "img": "images/settings/Skips_basic_on.png",
+        "codes": "skips_basic,skips_basic_on"
+      }
+    ]
+  },
+  {
+    "name": "Easy OOB required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/Skips_oobeasy_off.png",
+        "codes": "skips_oobeasy,skips_oobeasy_off"
+      },
+      {
+        "img": "images/settings/Skips_oobeasy_on.png",
+        "codes": "skips_oobeasy,skips_oobeasy_on"
+      }
+    ]
+  },
+  {
+    "name": "Hard OOB required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/Skips_oobhard_off.png",
+        "codes": "skips_oobhard,skips_oobhard_off"
+      },
+      {
+        "img": "images/settings/Skips_oobhard_on.png",
+        "codes": "skips_oobhard,skips_oobhard_on"
+      }
+    ]
+  },
+  {
+    "name": "Death storage required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/Skips_storage_off.png",
+        "codes": "skips_storage,skips_storage_off"
+      },
+      {
+        "img": "images/settings/Skips_storage_on.png",
+        "codes": "skips_storage,skips_storage_on"
+      }
+    ]
+  }  
 ]
