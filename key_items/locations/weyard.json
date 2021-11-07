@@ -1637,11 +1637,12 @@
             "y": 4230
           }
         ],
-		    "access_rules": ["reunion,sand,teleport_lapis,burst_brooch"],
+		    "access_rules": ["sand,teleport_lapis,burst_brooch"],
         "sections": [
           {
             "name": "Daedalus",
             "item_count": 1,
+			"access_rules": ["reunion"]
             "clear_as_group": false
           },
           {
