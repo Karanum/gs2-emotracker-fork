@@ -397,7 +397,7 @@
             "y": 3860
           }
         ],
-		"access_rules": ["boss,parch"],
+		"access_rules": ["reunion,parch"],
         "sections": [
           {
             "name": "Treasures",
@@ -2771,7 +2771,7 @@
             "y": 4230
           }
         ],
-		    "access_rules": ["reunion,sand,teleport_lapis,burst_brooch"],
+		    "access_rules": ["sand,teleport_lapis,burst_brooch"],
         "sections": [
           {
             "name": "Treasures",
@@ -2990,7 +2990,7 @@
           {
             "name": "Djinni",
             "hosted_item": "mercury_10",
-            "access_rules": ["briggs_battle,frost_jewel", "briggs_battle,scoop_gem"]
+            "access_rules": ["$canAccessNaribwe"]
           }
         ],
         "children": [

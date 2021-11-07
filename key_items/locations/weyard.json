@@ -246,7 +246,7 @@
             "y": 3860
           }
         ],
-		    "access_rules": ["boss,parch"],
+		    "access_rules": ["reunion,parch"],
         "sections": [
           {
             "name": "Coatlicue",
@@ -1718,7 +1718,7 @@
           {
             "name": "Djinni",
             "hosted_item": "mercury_10",
-            "access_rules": ["briggs_battle,frost_jewel", "briggs_battle,scoop_gem"]
+            "access_rules": ["$canAccessNaribwe"]
           }
         ],
         "children": [
