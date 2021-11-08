@@ -1190,7 +1190,7 @@
           {
             "name": "Right Wing",
             "item_count": 2,
-            "access_rules": ["reveal,blue_key"],
+            "access_rules": ["reveal,blue_key,pound_cube"],
             "clear_as_group": false
           },
           {
@@ -1202,7 +1202,7 @@
           {
             "name": "Boss",
             "hosted_item": "boss",
-            "access_rules": ["reveal,red_key,blue_key"]
+            "access_rules": ["reveal,red_key,blue_key,pound_cube"]
           },
           {
             "name": "Djinni",

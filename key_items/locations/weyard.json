@@ -772,7 +772,7 @@
           {
             "name": "Boss",
             "hosted_item": "boss",
-            "access_rules": ["reveal,red_key,blue_key"]
+            "access_rules": ["reveal,red_key,blue_key,pound_cube"]
           },
           {
             "name": "Djinni",
