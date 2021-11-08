@@ -270,7 +270,7 @@
             "y": 3660
           }
         ],
-		    "access_rules": ["lemurian_ship,aqua_stone,frost_jewel"],
+		"access_rules": ["lemurian_ship,aqua_stone"],
         "sections": [
           {
             "name": "Exterior",
