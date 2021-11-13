@@ -1595,14 +1595,14 @@
         "sections": [
           {
             "name": "Trainer's Whip",
-			      "short_name": "Whip",
+			"short_name": "Whip",
             "item_count": 1,
-            "access_rules": ["lash_pebble,scoop_gem", "[sand]", "skips_oobeasy_on"],
+            "access_rules": ["lash_pebble,scoop_gem", "sand", "lash_pebble,[skips_oobeasy_on]", "lash_pebble,lemurian_ship"],
             "clear_as_group": false
           },
           {
             "name": "Scoop Gem",
-			      "short_name": "Scoop",
+			"short_name": "Scoop",
             "item_count": 1,
             "access_rules": ["pound_cube"],
             "clear_as_group": false

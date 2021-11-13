@@ -2592,11 +2592,12 @@
             "y": 3380
           }
         ],
+		"access_rules": ["lemurian_ship"],
         "sections": [
           {
             "name": "Treasures",
             "item_count": 1,
-            "access_rules": ["lemurian_ship,mind_read,milk"],
+            "access_rules": ["mind_read,milk"],
             "clear_as_group": false
           },
           {
@@ -2670,49 +2671,49 @@
         "sections": [
           {
             "name": "Requires Pound",
-			      "short_name": "+Pound",
+			"short_name": "+Pound",
             "item_count": 2,
             "access_rules": ["pound_cube", "sand"],
             "clear_as_group": false
           },
           {
             "name": "Trainer's Whip",
-			      "short_name": "Whip",
+			"short_name": "Whip",
             "item_count": 1,
-            "access_rules": ["lash_pebble,scoop_gem", "[sand]", "skips_oobeasy_on"],
+            "access_rules": ["lash_pebble,scoop_gem", "sand", "lash_pebble,[skips_oobeasy_on]", "lash_pebble,lemurian_ship"],
             "clear_as_group": false
           },
           {
             "name": "Reveal Chest",
-			      "short_name": "Reveal",
+			"short_name": "Reveal",
             "item_count": 1,
-            "access_rules": ["reveal,[sand]", "reveal,skips_oobeasy_on", "reveal,scoop_gem"],
+            "access_rules": ["reveal,[sand]", "reveal,skips_oobeasy_on", "reveal,scoop_gem", "reveal,lemurian_ship"],
             "clear_as_group": false
           },
           {
             "name": "Requires Sand",
-			      "short_name": "+Sand",
+			"short_name": "+Sand",
             "item_count": 1,
             "access_rules": ["sand"],
             "clear_as_group": false
           },
           {
             "name": "Sand Flow Cave Bottom",
-			      "short_name": "Cave Bottom",
+			"short_name": "Cave Bottom",
             "item_count": 1,
-            "access_rules": ["[sand]", "skips_oobeasy_on", "scoop_gem"],
+            "access_rules": ["[sand]", "skips_oobeasy_on", "scoop_gem", "lemurian_ship"],
             "clear_as_group": false
           },
           {
             "name": "Sand Flow Cave Top",
-			      "short_name": "Cave Top",
+			"short_name": "Cave Top",
             "item_count": 1,
-            "access_rules": ["[sand],pound_cube", "skips_oobeasy_on,pound_cube", "scoop_gem,pound_cube"],
+            "access_rules": ["[sand],pound_cube", "skips_oobeasy_on,pound_cube", "scoop_gem,pound_cube", "lemurian_ship,pound_cube"],
             "clear_as_group": false
           },
           {
             "name": "Scoop Gem",
-			      "short_name": "Scoop",
+			"short_name": "Scoop",
             "item_count": 1,
             "access_rules": ["pound_cube"],
             "clear_as_group": false

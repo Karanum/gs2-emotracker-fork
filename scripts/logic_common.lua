@@ -28,7 +28,9 @@ function canAccessShip()
     else
         if Tracker:ProviderCountForCode("gabomba_statue") > 0 then
             return Tracker:ProviderCountForCode("black_crystal")
-        end
+        else
+			return 0
+		end
     end
 end
 
@@ -36,4 +38,5 @@ function canAccessUpperMars()
     if Tracker:ProviderCountForCode("burst_brooch") > 0 and Tracker:ProviderCountForCode("blaze") > 0 and Tracker:ProviderCountForCode("reveal") > 0 and Tracker:ProviderCountForCode("teleport_lapis") > 0 and Tracker:ProviderCountForCode("pound_cube") > 0 then
         return Tracker:ProviderCountForCode("mars_star")
     end
+	return 0
 end
