@@ -1311,6 +1311,18 @@
 		"access_rules": ["lemurian_ship,grindstone,magma_ball"],
         "sections": [
           {
+            "name": "Half-buried",
+            "item_count": 1,
+            "access_rules": ["cannon,scoop"],
+            "clear_as_group": false
+          },
+          {
+            "name": "Half-buried + Lift",
+            "item_count": 1,
+            "access_rules": ["cannon,scoop,lift"],
+            "clear_as_group": false
+          },
+          {
             "name": "Cannon",
             "hosted_item": "cannon"
           },
@@ -1795,6 +1807,12 @@
 		    "access_rules": ["cannon"],
         "sections": [
           {
+            "name": "Half-buried",
+            "item_count": 1,
+            "access_rules": ["scoop"],
+            "clear_as_group": false
+          },
+          {
             "name": "Djinni",
             "hosted_item": "mercury_6"
           },
@@ -2028,6 +2046,12 @@
           {
             "name": "Treasures",
             "item_count": 1,
+            "clear_as_group": false
+          },
+          {
+            "name": "Half-buried",
+            "item_count": 1,
+            "access_rules": ["whirlwind,scoop"],
             "clear_as_group": false
           },
           {
@@ -2353,6 +2377,12 @@
           {
             "name": "Treasures",
             "item_count": 2,
+            "clear_as_group": false
+          },
+          {
+            "name": "Half-buried",
+            "item_count": 1,
+            "access_rules": ["scoop"],
             "clear_as_group": false
           },
 		  {
