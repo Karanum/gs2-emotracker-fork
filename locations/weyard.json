@@ -1317,12 +1317,6 @@
             "clear_as_group": false
           },
           {
-            "name": "Half-buried + Lift",
-            "item_count": 1,
-            "access_rules": ["cannon,scoop,lift"],
-            "clear_as_group": false
-          },
-          {
             "name": "Cannon",
             "hosted_item": "cannon"
           },
@@ -1333,6 +1327,9 @@
           }
         ],
         "children": [
+		  {
+			"name": "0xFF6"
+		  },
           {
             "name": "0xA5F"
           },
@@ -1823,6 +1820,9 @@
           }
         ],
         "children": [
+		  {
+			"name": "0xFF9"
+		  },
           {
             "name": "0x4A"
           },
@@ -2050,7 +2050,7 @@
           },
           {
             "name": "Half-buried",
-            "item_count": 1,
+            "item_count": 2,
             "access_rules": ["whirlwind,scoop"],
             "clear_as_group": false
           },
@@ -2070,6 +2070,9 @@
           {
             "name": "0xF98"
           },
+		  {
+			"name": "0xF63,0xF64"  
+		  },
           {
             "name": "0xF65"
           },
@@ -2402,6 +2405,9 @@
           {
             "name": "0xF8C,0xF8D"
           },
+		  {
+			"name": "0xF8B"
+		  },
 		  {
 			"name": "0x18"  
 		  },
