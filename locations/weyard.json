@@ -1313,7 +1313,7 @@
           {
             "name": "Half-buried",
             "item_count": 1,
-            "access_rules": ["cannon,scoop"],
+            "access_rules": ["cannon,scoop_gem"],
             "clear_as_group": false
           },
           {
@@ -1806,7 +1806,7 @@
           {
             "name": "Half-buried",
             "item_count": 1,
-            "access_rules": ["scoop"],
+            "access_rules": ["scoop_gem"],
             "clear_as_group": false
           },
           {
@@ -2051,7 +2051,7 @@
           {
             "name": "Half-buried",
             "item_count": 2,
-            "access_rules": ["whirlwind,scoop"],
+            "access_rules": ["whirlwind,scoop_gem"],
             "clear_as_group": false
           },
           {
@@ -2385,7 +2385,7 @@
           {
             "name": "Half-buried",
             "item_count": 1,
-            "access_rules": ["scoop"],
+            "access_rules": ["scoop_gem"],
             "clear_as_group": false
           },
 		  {
