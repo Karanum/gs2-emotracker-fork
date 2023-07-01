@@ -5,6 +5,8 @@
 This is an automated tracker for the Golden Sun: The Lost Age
 randomizer, tracking key items, psynergy, summons, and djinn.
 
+**NOTE:** This version of the tracker pack is now deprecated and will no longer receive updates. The new version can be found at https://github.com/Karanum/gstla_emotracker_pack.
+
 ## Requirements
 
 This tracker requires [EmoTracker](https://emotracker.net/). Autotracking has only been tested on Bizhawk.
